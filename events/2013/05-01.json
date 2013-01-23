@@ -1,0 +1,56 @@
+{
+	"id" : "PHP Developer Meetup #4",
+	"events" : {
+		"facebook" : ""
+	},
+	"date" : {
+		"from" : "05-01-2013 11:00 AM",
+		"to" : "05-01-2013 1:00 PM"
+	},
+	"where" : {
+		"address" : "BrainDigit, Next to USEF, Gyaneshwor",
+		"lat" : "27.709448",
+		"lon" : "85.328920",
+		"zoom" : "15"
+	},
+	"agenda" : [
+		{
+			"type" : "talk",
+			"from" : "11:00",
+			"topic" : "OAuth Demystified",
+			"speaker" : {
+				"name" : "Sanjeev Shrestha",
+				"twitter" : "",
+				"github" : ""
+			},
+			"slides" : ""
+		},
+		{
+			"type" : "talk",
+			"from" : "11:25",
+			"topic" : "Web Application Security",
+			"speaker" : {
+				"name" : "Bhupal Sapkota",
+				"twitter" : "",
+				"github" : ""
+			},
+			"slides" : ""
+		},
+		{
+			"type" : "talk",
+			"from" : "12:00",
+			"topic" : "PHP Design Patterns",
+			"speaker" : {
+				"name" : "Bhupal Sapkota",
+				"twitter" : "",
+				"github" : ""
+			},
+			"slides" : ""
+		},
+		{
+			"type" : "Open Discussion",
+			"from" : "12:20",
+			"topic" : "Development and Deployment using Git/SVN"
+		}
+	]
+}
