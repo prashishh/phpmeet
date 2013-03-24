@@ -1,0 +1,27 @@
+		<div class="container">
+			<h3> {{event.id}} </h3>
+			<leaflet leaflet-lat="{{event.where.lat}}" leaflet-lng="{{event.where.lon}}"></leaflet>
+			<br />
+			<br />
+			<p><i class="icon-calendar"></i> {{niceDate}}</p>
+			<p><i class="icon-map-marker"></i> {{event.where.address}} </p>
+			<br />
+			<h4> AGENDA </h4>
+			<table class="table table-striped">
+				<thead>
+					<tr><td width="25%"> Time </td><td> Session </td></tr>
+				</thead>
+				<tbody>
+					<tr ng-repeat="session in event.agenda">
+						<td> {{session.from}} </td><td> {{session.topic}} <small> {{ session.speaker.name }}</small></td></tr>
+					</tr>
+				</tbody>
+			</table>
+			<div align="center" class="well" ng-show="event.events">
+				<strong> Attending ? </strong> Please confirm your attendance on 
+				<span ng-repeat="(siteName, siteLink) in event.events">
+					<a class="btn" href="{{siteLink}}" target="_blank"> {{siteName}} </a> 
+				</span>
+				
+			</div>
+		</div>
